@@ -30,4 +30,9 @@ for names in candidate:
 
 print(f"Winner: {winner}")
 
-
+out_txt= open("Results.txt","a")
+out_txt.write(f"\nTotal number of vote {cnt}")
+for names in candidate:
+      out_txt.write(f"\n{names}: {round(candidate[names]/cnt*100,3)}% ({candidate[names]})")
+out_txt.write(f"\nWinner: {winner}")
+out_txt.close

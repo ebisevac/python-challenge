@@ -35,3 +35,13 @@ print(f"""
         Average Changes = ${average_changes},
         Maximum profit of ${max_profit}, happened on {max_profit_date}, 
         Maximum loss of ${min_profit}, happened on {min_profit_date}""")
+
+
+
+out_txt= open("Results.txt","a")
+out_txt.write(f"Total number of months = {str(tot_month)}" )
+out_txt.write(f"\nTotal Amount = ${str(tot_amount)}")
+out_txt.write(f"\nAverage Changes = ${str(average_changes)}")
+out_txt.write(f"\nMaximum profit of ${str(max_profit)} happened on {str(max_profit_date)}")
+out_txt.write(f"\nMaximum loss of ${str(min_profit)} happened on {str(min_profit_date)}")
+out_txt.close

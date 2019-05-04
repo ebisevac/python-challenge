@@ -1,0 +1,9 @@
+Total number of months = 86
+Total Amount = $38382578.0
+Average Changes = $446309
+Maximum profit of $1170593.0 happened on Feb-2012
+Maximum loss of $-1196225.0 happened on Sep-2013Total number of months = 86
+Total Amount = $38382578.0
+Average Changes = $446309
+Maximum profit of $1170593.0 happened on Feb-2012
+Maximum loss of $-1196225.0 happened on Sep-2013
